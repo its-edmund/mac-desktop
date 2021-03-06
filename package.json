@@ -2,6 +2,7 @@
   "name": "mac-desktop",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mac-desktop.netlify.app",
   "dependencies": {
     "@chakra-ui/react": "^1.3.4",
     "@emotion/react": "^11.1.5",
