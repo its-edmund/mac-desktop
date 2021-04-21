@@ -9,10 +9,6 @@ function Window({
   className, iconProps, title, defaultWidth, defaultHeight, tabs, noToolbar, children, onKeyDown, onKeyPress,
   onUpdate, app, style, toolbarStyle, contentStyle,
 }) {
-  const {
-    name, iconProps: appIconProps, url, closing, focused, defaultLeft, defaultTop, zIndex,
-  } = app;
-
   const mobile = useContext(ResponsiveContext);
 
   const history = useHistory();
