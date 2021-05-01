@@ -17,9 +17,12 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "framer-motion": "^3.10.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-desktop": "^0.3.9",
     "react-dom": "^17.0.1",
+    "react-draggable": "^4.4.3",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
@@ -48,7 +51,11 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
-    "eslint-plugin-react": "^7.22.0"
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "prettierrc": "^0.0.0-5"
   }
 }
