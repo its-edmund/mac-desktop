@@ -6,7 +6,7 @@ import Window from "../Window"
 
 const AboutWindow = () => {
   return (
-    <Window title="About Us">
+    <Window title="About Me" height={200} width={300}>
       <Flex direction="column" my="auto" mx="auto">
         <Text>Hi! I'm Edmund Xin</Text>
         <Stack direction="row" mt="10px">
